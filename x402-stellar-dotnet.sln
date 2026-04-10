@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AA1C72D6-FD1A-4869-87D0-8232C9EC9E21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X402.Stellar", "src\X402.Stellar\X402.Stellar.csproj", "{A9478602-A708-483A-BE0B-69C84E3AA73D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A7087673-7FB7-4EE1-817A-837CF31F85FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X402.Stellar.Tests", "tests\X402.Stellar.Tests\X402.Stellar.Tests.csproj", "{C94190D5-77F0-40B3-AC36-432BD7355937}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9478602-A708-483A-BE0B-69C84E3AA73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9478602-A708-483A-BE0B-69C84E3AA73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9478602-A708-483A-BE0B-69C84E3AA73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9478602-A708-483A-BE0B-69C84E3AA73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C94190D5-77F0-40B3-AC36-432BD7355937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C94190D5-77F0-40B3-AC36-432BD7355937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C94190D5-77F0-40B3-AC36-432BD7355937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C94190D5-77F0-40B3-AC36-432BD7355937}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9478602-A708-483A-BE0B-69C84E3AA73D} = {AA1C72D6-FD1A-4869-87D0-8232C9EC9E21}
+		{C94190D5-77F0-40B3-AC36-432BD7355937} = {A7087673-7FB7-4EE1-817A-837CF31F85FB}
+	EndGlobalSection
+EndGlobal
